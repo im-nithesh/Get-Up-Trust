@@ -39,12 +39,12 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #5bc1ac;
-  --secondary-color:              #5a6f80;
+  --primary-color:                #344A86;
+  --secondary-color:              #c2964b;
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
+  --site-footer-bg-color:         #c2964b;
   --custom-btn-bg-color:          #597081;
-  --custom-btn-bg-hover-color:    #5bc1ac;
+  --custom-btn-bg-hover-color:    #c2964b;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -544,6 +544,9 @@ strong {
   margin-right: 15px;
 }
 
+.site-header a:hover {
+	color: #FF6;
+}
 
 /*---------------------------------------
   HERO & HERO SLIDE         
@@ -575,7 +578,7 @@ strong {
   text-align: right;
   min-width: 680px;
   min-height: 680px;
-  padding: 100px 100px 50px 100px;
+  padding: 100px 30px 50px 100px;
 }
 
 .carousel-image {
@@ -607,8 +610,8 @@ strong {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-large);
   background-size: 60% 60%;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -616,6 +619,12 @@ strong {
 .carousel-control-next-icon:hover, 
 .carousel-control-prev-icon:hover {
   background-color: var(--primary-color);
+}
+.carousel-control-next-icon:active {
+  transform: translateX(10px);
+}
+.carousel-control-prev-icon:active {
+  transform: translateX(-15px);
 }
 
 
@@ -1271,12 +1280,12 @@ blockquote::before {
 }
 
 .site-footer-bottom {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   position: relative;
   z-index: 2;
   margin-top: 70px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .site-footer-bottom a {
@@ -1294,7 +1303,6 @@ blockquote::before {
 .copyright-text {
   color: var(--section-bg-color);
   font-size: var(--copyright-font-size);
-  margin-right: 30px;
 }
 
 .site-footer .custom-btn {
@@ -1303,30 +1311,6 @@ blockquote::before {
 
 .site-footer .custom-btn:hover {
   background: var(--primary-color);
-}
-
-
-/*---------------------------------------
-  FOOTER MENU               
------------------------------------------*/
-.footer-menu {
-  column-count: 2;
-  margin: 0;
-  padding: 0;
-}
-
-.footer-menu-item {
-  list-style: none;
-  display: block;
-}
-
-.footer-menu-link {
-  font-size: var(--p-font-size);
-  color: var(--white-color);
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-  margin-bottom: 5px;
 }
 
 
@@ -1360,8 +1344,32 @@ blockquote::before {
 .social-icon-link:hover {
   background: var(--primary-color);
   color: var(--white-color);
+  transform: translateY(-5px);
 }
 
+
+/*---------------------------------------
+  FOOTER MENU               
+-----------------------------------------*/
+.footer-menu {
+  column-count: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu-item {
+  list-style: none;
+  display: block;
+}
+
+.footer-menu-link {
+  font-size: var(--p-font-size);
+  color: var(--white-color);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
 
 /*---------------------------------------
   RESPONSIVE STYLES               

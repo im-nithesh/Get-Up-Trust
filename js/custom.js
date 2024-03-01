@@ -1,15 +1,14 @@
-
-  (function ($) {
+(function ($) {
   
   "use strict";
 
-    // COUNTER NUMBERS
-    jQuery('.counter-thumb').appear(function() {
-      jQuery('.counter-number').countTo();
-    });
-    
-    // CUSTOM LINK
-    $('.smoothscroll').click(function(){
+  // // COUNTER NUMBERS
+  // jQuery('#main .counter-thumb').appear(function() {
+  //   jQuery('#main .counter-number').countTo();
+  // });
+  
+  // CUSTOM LINK
+  $('.smoothscroll').click(function(){
     var el = $(this).attr('href');
     var elWrapped = $(el);
     var header_height = $('.navbar').height();
@@ -26,8 +25,31 @@
       scrollTop: totalScroll
       }, 300);
     }
-});
+  });
+
+  $(".copy-btn").click(function() {
+    // Create a temporary input field
+    var $temp = $("<input>");
+    $("body").append($temp);
+
+    // Set the value of the input field to the text inside the div
+    $temp.val($("#upi-id").text()).select();
+
+    // Execute the copy command
+    document.execCommand("copy");
+
+    // Remove the temporary input field
+    $temp.remove();
+  });
+
+  $(".donate-btn").click(function() {
+    $(".donate-section").addClass("active")
+  });
+
+  $(".close-btn").click(function() {
+    $(".donate-section").removeClass("active")
+  });
     
-  })(window.jQuery);
+})(window.jQuery);
 
 

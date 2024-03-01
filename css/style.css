@@ -715,7 +715,7 @@ strong {
 /*---------------------------------------
   VOLUNTEER              
 -----------------------------------------*/
-.volunteer-section {
+/* .volunteer-section {
   background: var(--secondary-color);
   position: relative;
   overflow: hidden;
@@ -754,35 +754,12 @@ strong {
 
 .volunteer-section .custom-block-body p {
   line-height: 1.7;
-}
-
-
-/*---------------------------------------
-  DONATE              
------------------------------------------*/
-.donate-section {
-  background-image: url('../images/different-people-doing-volunteer-work.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-.donate-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  padding: 50px;
-}
-
+} */
 
 /*---------------------------------------
   NEWS         
 -----------------------------------------*/
-.news-detail-header-section {
+/* .news-detail-header-section {
   background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -902,7 +879,7 @@ blockquote::before {
 .tags-block-link:hover {
   border-color: var(--dark-color);
   color: var(--dark-color);
-}
+} */
 
 /*---------------------------------------
   Section Floating Objects    
@@ -941,7 +918,7 @@ blockquote::before {
 .cta-section::after, #section_3::before {
   content: "";
   border: 20px solid var(--custom-btn-bg-color);
-  background-color: var(--white-color);
+  background-color: transparent;
   border-radius: 50%;
   position: absolute;
   right: 100px;
@@ -1105,6 +1082,91 @@ blockquote::before {
   height: 50px;
 }
 
+/*---------------------------------------
+  DONATE              
+-----------------------------------------*/
+.donate-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.9);
+  display: -webkit-box;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  -webkit-transition: all 0.36s ease-in-out;
+  transition: all 0.36s ease-in-out;
+}
+
+.donate-section.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+.donate-form {
+  background: var(--white-color);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.donate-form textarea.form-control{
+  min-height: 50px !important;
+  height: 50px;
+}
+
+.donate-form .form-control{
+  text-align: center;
+}
+.donate-form h6 {
+ font-size: 16px;
+ letter-spacing: 1px;
+ margin-bottom: 0;
+}
+.donate-form .copy-btn{
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
+  color: var(--primary-color);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+}
+.donate-form .copy-btn:visited{
+  color: var(--secondary-color);
+}
+.donate-form img{
+  width: 200px;
+  height: auto;
+}
+
+.close-btn {
+  position: absolute;
+  line-height: 36px;
+  height: 36px;
+  width: 36px;
+  top: 5px;
+  right: 5px;
+  padding: 0;
+  border: 0;
+  background-color: var(--custom-btn-bg-color);
+  box-shadow: 0 0 5px #1e1e1e;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  transition: all 0.36s ease-in-out;
+}
+
+.close-btn:hover {
+  background-color: var(--custom-btn-bg-hover-color);
+}
 
 /*---------------------------------------
   CONTACT               
@@ -1176,7 +1238,7 @@ blockquote::before {
   margin-bottom: 20px;
 }
 
-.donate-form .form-check-group-donation-frequency {
+/* .donate-form .form-check-group-donation-frequency {
   padding-right: 0;
 }
 
@@ -1197,7 +1259,7 @@ blockquote::before {
 #DonationFrequencyMonthly {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-}
+} */
 
 .custom-form .form-check-radio {
   position: relative;

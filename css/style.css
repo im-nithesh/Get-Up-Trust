@@ -711,176 +711,6 @@ strong {
   line-height: normal;
 }
 
-
-/*---------------------------------------
-  VOLUNTEER              
------------------------------------------*/
-/* .volunteer-section {
-  background: var(--secondary-color);
-  position: relative;
-  overflow: hidden;
-}
-
-.volunteer-section::after {
-  content: "";
-  background: var(--primary-color);
-  border-radius: 50%;
-  position: absolute;
-  bottom: -110px;
-  right: -80px;
-  width: 350px;
-  height: 350px;
-}
-
-.volunteer-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  padding: 50px;
-}
-
-.volunteer-image {
-  border-radius: 100%;
-  display: block;
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.volunteer-section .custom-block-body {
-  max-width: 440px;
-  margin: 0 auto;
-}
-
-.volunteer-section .custom-block-body p {
-  line-height: 1.7;
-} */
-
-/*---------------------------------------
-  NEWS         
------------------------------------------*/
-/* .news-detail-header-section {
-  background-image: url('../images/news/close-up-volunteer-oganizing-stuff-donation.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-.news-block-top {
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-}
-
-.news-block-two-col-image-wrap {
-  border-radius: var(--border-radius-small);
-  position: relative;
-  overflow: hidden;
-  width: 150px;
-  margin-right: 20px;
-}
-
-.news-category-block {
-  background: var(--secondary-color);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 10px 20px;
-}
-
-.news-category-block .category-block-link {
-  color: var(--white-color);
-  margin-right: 10px;
-}
-
-.news-block-info {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.news-block-title-link {
-  color: var(--dark-color);
-}
-
-.news-detail-image {
-  display: block;
-  border-radius: var(--border-radius-medium);
-}
-
-blockquote {
-  background: var(--section-bg-color);
-  border-radius: var(--border-radius-small);
-  font-size: var(--h5-font-size);
-  font-weight: var(--font-weight-semibold);
-  color: var(--site-footer-bg-color);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 90px 50px 50px 50px;
-  text-align: center;
-}
-
-blockquote::before {
-  content: "“";
-  color: var(--custom-btn-bg-color);
-  font-size: 100px;
-  line-height: 1rem;
-  display: block;
-}
-
-.author-comment-link {
-  font-size: var(--copyright-font-size);
-  font-weight: var(--font-weight-semibold);
-}
-
-.search-form {
-  margin-top: 20px;
-}
-
-.category-block,
-.subscribe-form {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.category-block-link {
-  font-size: var(--copyright-font-size);
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.category-block-link:hover {
-  color: var(--primary-color);
-}
-
-.badge {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-medium);
-  font-weight: var(--font-weight-normal);
-  line-height: normal;
-  padding-bottom: 2px;
-}
-
-.tags-block-link {
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-medium);
-  display: inline-block;
-  font-size: var(--copyright-font-size);
-  line-height: normal;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 8px 15px;
-}
-
-.tags-block-link:hover {
-  border-color: var(--dark-color);
-  color: var(--dark-color);
-} */
-
 /*---------------------------------------
   Section Floating Objects    
 -----------------------------------------*/
@@ -1130,21 +960,68 @@ blockquote::before {
  letter-spacing: 1px;
  margin-bottom: 0;
 }
-.donate-form .copy-btn{
+
+.donate-form img{
+  width: 200px;
+  height: auto;
+}
+
+.copy-btn{
+  position: relative;
+  display: inline-block;
   background: transparent;
   border: 2px solid transparent;
-  border-radius: var(--border-radius-large);
+  border-radius: none;
   color: var(--primary-color);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-normal);
   line-height: normal;
+  transition: color 0.36s ease-in-out;
 }
-.donate-form .copy-btn:visited{
+
+.copy-btn .copy-info {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  background-color: var(--custom-btn-bg-color);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  bottom: 0;
+  top: -2px;
+  margin-left: 5px;
+  transition: opacity, background-color 0.36s ease-in-out;
+}
+
+.copy-btn .copy-info::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -5px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent var(--custom-btn-bg-color) transparent transparent;
+  transition: border-color 0.36s ease-in-out;
+}
+
+.copy-btn:hover .copy-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.copy-btn.visited{
   color: var(--secondary-color);
 }
-.donate-form img{
-  width: 200px;
-  height: auto;
+.copy-btn.visited .copy-info{
+  background-color: var(--custom-btn-bg-hover-color);
+}
+.copy-btn.visited .copy-info::after {
+  border-color: transparent var(--custom-btn-bg-hover-color) transparent transparent;
 }
 
 .close-btn {
@@ -1237,29 +1114,6 @@ blockquote::before {
 .custom-form .form-check-group {
   margin-bottom: 20px;
 }
-
-/* .donate-form .form-check-group-donation-frequency {
-  padding-right: 0;
-}
-
-.form-check-group-donation-frequency + .form-check-group-donation-frequency {
-  padding-right: 12px;
-  padding-left: 0;
-}
-
-.form-check-group-donation-frequency .form-check-label {
-  font-weight: var(--font-weight-semibold);
-}
-
-#DonationFrequencyOne {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-#DonationFrequencyMonthly {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-} */
 
 .custom-form .form-check-radio {
   position: relative;

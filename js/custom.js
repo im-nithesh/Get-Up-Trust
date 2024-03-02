@@ -28,18 +28,31 @@
   });
 
   $(".copy-btn").click(function() {
-    // Create a temporary input field
-    var $temp = $("<input>");
-    $("body").append($temp);
+    
+    if (!navigator.clipboard) {
+      var $temp = $("<input>").appendTo("body"); // Create a temporary input field and append to body
+      
+      $temp.val($("#upi-id").text()).select(); // Set the value of the input field to the text inside the div
+      
+      document.execCommand("copy"); // Execute the copy command - Old School Method (Support All type of Browser But Deprecated)
 
-    // Set the value of the input field to the text inside the div
-    $temp.val($("#upi-id").text()).select();
+      // Remove the temporary input field
+      $temp.remove();
+    }
 
-    // Execute the copy command
-    document.execCommand("copy");
+    else{
+      navigator.clipboard.writeText($("#upi-id").text()) // Execute the copy command - New Method (Does Not Support All type of Browser)
+    }
+    
+    $('.copy-info').html('Copied');
+    $('.copy-btn').addClass('visited');
 
-    // Remove the temporary input field
-    $temp.remove();
+  });
+
+  
+  $('.copy-btn').mouseout(function() {
+    $('.copy-btn').removeClass('visited')
+    $('.copy-info').html('Copy')
   });
 
   $(".donate-btn").click(function() {

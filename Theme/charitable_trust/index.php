@@ -20,7 +20,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="images/slide/slide-2.png" class="carousel-image img-fluid" alt="...">
+                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-2.png') ?>" class="carousel-image img-fluid" alt="...">
                                 
                                 <div class="carousel-caption d-flex flex-column justify-content-end">
                                     <h2>Give Hope<br>Today</h2>
@@ -28,7 +28,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="images/slide/slide-3.png" class="carousel-image img-fluid" alt="...">
+                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-3.png') ?>" class="carousel-image img-fluid" alt="...">
                                 
                                 <div class="carousel-caption d-flex flex-column justify-content-end">
                                     <h2>Empowering<br>Change</h2>
@@ -64,7 +64,7 @@
                 <div class="col-lg-3 col-6 mb-4 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="images/icons/recruitment.png" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/recruitment.png') ?>" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text">We <br> <strong>Employ</strong></p>
                         </div>
@@ -74,7 +74,7 @@
                 <div class="col-lg-3 col-6 mb-4 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="images/icons/heart.png" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/heart.png') ?>" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text"> We <br> <strong>Find & Fund</strong></p>
                         </div>
@@ -84,7 +84,7 @@
                 <div class="col-lg-3 col-6 mb-md-4 mb-0 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="images/icons/receive.png" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/receive.png') ?>" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text">We <br> <strong>Care For You</strong></p>
                         </div>
@@ -94,7 +94,7 @@
                 <div class="col-lg-3 col-6 mb-md-4 mb-0 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="images/icons/scholarship.png" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/scholarship.png') ?>" class="featured-block-image img-fluid" alt="">
 
                             <p class="featured-block-text">We <br> <strong>Educate</strong></p>
                         </div>
@@ -110,7 +110,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                    <img src="images/about-us.jpg" class="custom-text-box-image img-fluid" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/about-us.jpg') ?>" class="custom-text-box-image img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-6 col-12">
@@ -186,7 +186,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-5 col-12">
-                    <img src="images/avatar/founder.jpg" class="about-image mx-lg-auto bg-light shadow-lg img-fluid" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/avatar/founder.jpg') ?>" class="about-image mx-lg-auto bg-light shadow-lg img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-6 col-md-7 col-12">
@@ -246,7 +246,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap">
-                        <img src="images/gallery/diwali_01.jpg" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -278,7 +278,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap">
-                        <img src="images/gallery/getto_01.jpg" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -299,7 +299,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="custom-block-wrap">
-                        <img src="images/gallery/medic_01.jpg" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -366,19 +366,19 @@
 
                                     <ol class="carousel-indicators">
                                         <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
-                                            <img src="images/avatar/user-icon.png" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                            <img src="<?php echo get_theme_file_uri('/images/avatar/user-icon.png') ?>" class="img-fluid rounded-circle avatar-image" alt="avatar">
                                         </li>
 
                                         <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
-                                            <img src="images/avatar/user-icon.png" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                            <img src="<?php echo get_theme_file_uri('/images/avatar/user-icon.png') ?>" class="img-fluid rounded-circle avatar-image" alt="avatar">
                                         </li>
 
                                         <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
-                                            <img src="images/avatar/user-icon.png" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                            <img src="<?php echo get_theme_file_uri('/images/avatar/user-icon.png') ?>" class="img-fluid rounded-circle avatar-image" alt="avatar">
                                         </li>
 
                                         <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
-                                            <img src="images/avatar/user-icon.png" class="img-fluid rounded-circle avatar-image" alt="avatar">
+                                            <img src="<?php echo get_theme_file_uri('/images/avatar/user-icon.png') ?>" class="img-fluid rounded-circle avatar-image" alt="avatar">
                                         </li>
                                     </ol>
 
@@ -400,7 +400,7 @@
                         <h2>Get in touch</h2>
 
                         <div class="contact-image-wrap">
-                            <img src="images/avatar/founder-01.png" class="img-fluid avatar-image" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/avatar/founder-01.png') ?>" class="img-fluid avatar-image" alt="">
 
                             <div class="d-flex flex-column justify-content-center ms-3">
                                 <h5 class="mb-0 text-muted"><strong>Mahendran Annadurai</strong></h5>
@@ -512,7 +512,7 @@
                                     <span class="copy-info">Copy</span>
                                 </button>
                             </div>
-                            <img src="images/qr-code.png" alt="QR-CODE">
+                            <img src="<?php echo get_theme_file_uri('/images/qr-code.png') ?>" alt="QR-CODE">
                         </div>
 
                         <div class="col-lg-12 col-12 mt-0">

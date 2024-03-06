@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-12 mb-4">
                         <div class="col-12 mb-4 d-flex justify-content-center align-items-center mx-auto">
-                            <img src="images/logo.png" class="logo img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" class="logo img-fluid" alt="">
                         </div>
                         <div class="col-12 d-flex justify-content-center align-items-center mx-auto">
                             <ul class="social-icon">

@@ -1,14 +1,3 @@
-/*
-Theme Name: Charitable Trust Theme
-Theme URI: lab.thefatek.in
-Description: This is a tailor-made, responsive WordPress Theme for the organization Get Up Trust. This theme was built from scratch using Bootstrap, jQuery, and additional plugins. It is designed, developed, maintained, and supported by THE FATEK LAB.
-Version: 1.0
-Author: Nithesh Mohan
-Author URI: lab.thefatek.in/dev
-*/
-
-/* Note: The CSS files are loaded from assets/css/ folder. */
-
 @font-face {
     font-family: 'Metropolis';
     src: url('../fonts/Metropolis/Metropolis-Regular.woff2') format('woff2'),
@@ -1630,3 +1619,4 @@ strong {
     padding: 25px;
   }
 }
+

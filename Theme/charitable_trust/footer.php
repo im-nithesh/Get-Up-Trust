@@ -37,7 +37,7 @@
                         <ul class="footer-menu">
                             <li class="footer-menu-item mb-4"><a href="/" class="footer-menu-link">Home</a></li>
 
-                            <li class="footer-menu-item mb-4"><a href="/gallery.html" class="footer-menu-link">Our Gallery</a></li>
+                            <li class="footer-menu-item mb-4"><a href="/gallery" class="footer-menu-link">Our Gallery</a></li>
 
                             <li class="footer-menu-item mb-4"><a href="#" class="footer-menu-link donate-btn">Donate Us</a></li>
                         </ul>
@@ -88,6 +88,15 @@
                 </div>
             </div>
         </footer>
-    
+        
+        <!-- JAVASCRIPT FILES -->
+        <script src="<?php echo get_theme_file_uri('/js/jquery.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/bootstrap.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/jquery.sticky.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/click-scroll.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/counter.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/custom.js') ?>"></script>
+
+        <?php wp_footer(); ?>
     </body>
 </html>

@@ -27,6 +27,14 @@
     }
   });
 
+  $(".donate-btn").click(function() {
+    $(".donate-section").addClass("active");
+  });
+
+  $(".close-btn").click(function() {
+    $(".donate-section").removeClass("active");
+  });
+
   $(".copy-btn").click(function() {
     
     if (!navigator.clipboard) {
@@ -41,7 +49,7 @@
     }
 
     else{
-      navigator.clipboard.writeText($("#upi-id").text()) // Execute the copy command - New Method (Does Not Support All type of Browser)
+      navigator.clipboard.writeText($("#upi-id").text()); // Execute the copy command - New Method (Does Not Support All type of Browser)
     }
     
     $('.copy-info').html('Copied');
@@ -51,18 +59,8 @@
 
   
   $('.copy-btn').mouseout(function() {
-    $('.copy-btn').removeClass('visited')
-    $('.copy-info').html('Copy')
-  });
-
-  $(".donate-btn").click(function() {
-    $(".donate-section").addClass("active")
-  });
-
-  $(".close-btn").click(function() {
-    $(".donate-section").removeClass("active")
+    $('.copy-btn').removeClass('visited');
+    $('.copy-info').html('Copy');
   });
     
 })(window.jQuery);
-
-

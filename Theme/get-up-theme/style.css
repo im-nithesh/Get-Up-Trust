@@ -7,7 +7,7 @@ Author: Nithesh Mohan
 Author URI: lab.thefatek.in/dev
 */
 
-/* Note: The CSS files are loaded from assets/css/ folder. */
+/* Note: The CSS files are loaded from Custom CSS and JS plugin */
 
 @font-face {
     font-family: 'Metropolis';
@@ -81,6 +81,11 @@ Author URI: lab.thefatek.in/dev
   --font-weight-semibold:         600;
   --font-weight-bold:             700;
 }
+
+/* html{
+  margin: 0 !important;
+  padding: 0 !important;
+} */
 
 body {
   background-color: var(--white-color);

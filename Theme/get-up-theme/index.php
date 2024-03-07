@@ -271,7 +271,7 @@
                                 </div> -->
                             </div>
 
-                            <a href="#" class="custom-btn btn">View Album</a>
+                            <a href="/gallery.html" class="custom-btn btn">View Album</a>
                         </div>
                     </div>
                 </div>
@@ -285,14 +285,9 @@
                                 <h5 class="mb-3">Get-To-Gether Party</h5>
 
                                 <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus tempor</p>
-
-                                <!-- <div class="progress mt-4">
-                                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div> -->
-
                             </div>
 
-                            <a href="#" class="custom-btn btn">View Album</a>
+                            <a href="/gallery.html" class="custom-btn btn">View Album</a>
                         </div>
                     </div>
                 </div>
@@ -306,14 +301,9 @@
                                 <h5 class="mb-3">Medical Camp</h5>
 
                                 <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
-
-                                <!-- <div class="progress mt-4">
-                                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div> -->
-
                             </div>
 
-                            <a href="#" class="custom-btn btn">View Album</a>
+                            <a href="/gallery.html" class="custom-btn btn">View Album</a>
                         </div>
                     </div>
                 </div>

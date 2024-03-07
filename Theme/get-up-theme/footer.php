@@ -88,6 +88,15 @@
                 </div>
             </div>
         </footer>
-    
+        
+        <!-- JAVASCRIPT FILES -->
+        <script src="<?php echo get_theme_file_uri('/js/jquery.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/bootstrap.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/jquery.sticky.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/click-scroll.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/counter.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/custom.js') ?>"></script>
+
+        <?php wp_footer(); ?>
     </body>
 </html>

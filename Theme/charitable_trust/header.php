@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Getup Charitable Trust | Transforming Lives | Education, Healthcare, and Empowerment.">
+    <meta name="keywords" content="Charity, Nonprofit, Community, Empowerment, Education, Healthcare, Social Welfare, Donation, Impact, Volunteer">
+    <meta name="author" content="Nithesh Mohan">
+
     <?php wp_head(); ?>
 </head>
+
 <body id="section_1">
     
     <header class="site-header d-lg-block d-none">

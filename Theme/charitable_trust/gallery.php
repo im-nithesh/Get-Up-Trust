@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Custom Gallery Template
+    Template Name: Charitable_Trust_Gallery
     */
 
     get_header(); ?>

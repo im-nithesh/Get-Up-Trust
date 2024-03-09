@@ -7,6 +7,8 @@
     <meta name="keywords" content="Charity, Nonprofit, Community, Empowerment, Education, Healthcare, Social Welfare, Donation, Impact, Volunteer">
     <meta name="author" content="Nithesh Mohan">
 
+    <title>Getup Charitable Trust</title>
+
     <?php wp_head(); ?>
 </head>
 

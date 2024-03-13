@@ -66,7 +66,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
                 <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" class="logo img-fluid" alt="Get-Up Charity Logo">
                 <span>
                     Get-Up Charitable Trust

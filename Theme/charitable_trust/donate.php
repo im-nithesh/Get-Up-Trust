@@ -37,7 +37,7 @@
                                     <span class="copy-info">Copy</span>
                                 </button>
                             </div>
-                            <img src="<?php echo get_theme_file_uri('/images/qr-code.png') ?>" alt="QR-CODE">
+                            <img class="mx-auto" src="<?php echo get_theme_file_uri('/images/qr-code.png') ?>" alt="QR-CODE">
                         </div>
 
                         <div class="col-lg-12 col-12 mt-0">

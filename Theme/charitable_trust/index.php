@@ -115,19 +115,17 @@
 
                 <div class="col-lg-6 col-12">
                     <div class="custom-text-box">
-                        <h2 class="mb-2">Our Story</h2>
 
                         <h5 class="mb-3">Get-Up Charitable Trust</h5>
 
-                        <p class="mb-0">Embarking on a transformative journey, we orchestrate and champion remarkable initiatives that breathe hope into the lives of underprivileged children and youth spanning diverse corners of our globe.</p>
-                    </div>
+                        <p class="mb-0">It's wonderful to hear that the government and various NGO’s are committed to supporting differently abled individuals. Similarly Get-Up charitable Trust, we are also enhancing the educational development for children of persons with disabilities, creating pathways for them to access government benefits, and offering professional development opportunities for those who are completely paralyzed are crucial initiatives. Additionally, promoting disabled individuals in sports to compete at national or international levels is a great way to empower them and promote inclusivity. These efforts aim to improve the lives and opportunities for people with disabilities.</p></div>
                     
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="custom-text-box mb-lg-0">
                                 <h5 class="mb-3">Our Mission</h5>
 
-                                <p>To ensure every child &amp; youth is enveloped in the support they need, at the moment they need it, with absolute certainty &amp; care.</p>
+                                <p>Disability Rights an inclusive world that provides equal opportunity for individuals with disabilities to freely participate in a society with equity, dignity and respect.</p>
 
                                 <!-- <ul class="custom-list mt-2">
                                     <li class="custom-list-item d-flex">
@@ -147,7 +145,7 @@
                             <div class="custom-text-box mb-lg-0">
                                 <h5 class="mb-3">Our Vision</h5>
 
-                                <p>Creating a future where every young heart &amp; soul receives instant support—ensuring no one is left feeling isolated.</p>
+                                <p>Disability Rights advocates, educates, investigates, and litigates to protect and advance the rights, dignity, equal opportunities, self-determination and choices for all people with disabilities.</p>
 
                             </div>
                         </div>
@@ -193,11 +191,9 @@
                     <div class="custom-text-block">
                         <h2 class="mb-0">Mahendran Annadurai</h2>
 
-                        <h5 class="mb-lg-4 mb-md-4">Founder Director</h5>
+                        <h5 class="mb-lg-4 mb-md-4">Founder / President</h5>
 
-                        <p>I’m Mahendran Annadurai, the heart behind Get-Up Charitable Trust. My mission is to uplift the youth through education and employment, transforming lives across underprivileged communities.</p>
-
-                        <p>From building schools to creating job opportunities, we’re dedicated to nurturing dreams and fostering futures. At Get-Up, we believe in immediate action for mental health and well-being, ensuring no child feels alone. Join us in our commitment to hope and dignity at Get-Up Charitable Trust.</p>
+                        <p>He is also a differently abled person who has experienced the challenges faced by others with disabilities since childhood. Now, he holds a prominent position in a private company, with his main goal being to enhance the lives of people with disabilities as much as possible.</p>
 
                         <ul class="social-icon mt-4">
                             <li class="social-icon-item">
@@ -251,24 +247,6 @@
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
                                 <h5 class="mb-3">Diwali Celebration</h5>
-
-                                <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
-
-                                <!-- <div class="progress mt-4">
-                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div> -->
-
-                                <!-- <div class="d-flex align-items-center my-2">
-                                    <p class="mb-0">
-                                        <strong>Raised:</strong>
-                                        $18,500
-                                    </p>
-
-                                    <p class="ms-auto mb-0">
-                                        <strong>Goal:</strong>
-                                        $32,000
-                                    </p>
-                                </div> -->
                             </div>
 
                             <a href="/gallery" class="custom-btn btn">View Album</a>
@@ -283,8 +261,6 @@
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
                                 <h5 class="mb-3">Get-To-Gether Party</h5>
-
-                                <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus tempor</p>
                             </div>
 
                             <a href="/gallery" class="custom-btn btn">View Album</a>
@@ -299,8 +275,6 @@
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
                                 <h5 class="mb-3">Medical Camp</h5>
-
-                                <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
                             </div>
 
                             <a href="/gallery" class="custom-btn btn">View Album</a>

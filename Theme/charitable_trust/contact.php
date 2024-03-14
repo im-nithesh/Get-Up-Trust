@@ -10,8 +10,8 @@
                         <img src="<?php echo get_theme_file_uri('/images/avatar/founder-01.png') ?>" class="img-fluid avatar-image" alt="">
 
                         <div class="d-flex flex-column justify-content-center ms-3">
-                            <h5 class="mb-0 text-muted"><strong>Mahendran Annadurai</strong></h5>
-                            <h6 class="mb-0 text-muted">Founder Director</h6>
+                            <h5 class="mb-0 text-muted"><strong>Mohan Karunakaran</strong></h5>
+                            <h6 class="mb-0 text-muted">Chief executive officer</h6>
                         </div>
                     </div>
 
@@ -24,7 +24,7 @@
                                     <i class="bi-telephone me-2"></i>
 
                                     <a href="tel:+91 92924 26868">
-                                        +91 92924 26868
+                                        +91 92924 26868 / +91 99764 67565
                                     </a>
                                 </p>
                             </div>

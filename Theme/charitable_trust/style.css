@@ -645,6 +645,23 @@ strong {
   transform: translateX(-15px);
 }
 
+/*---------------------------------------
+  GALLERY HERO
+-----------------------------------------*/
+
+.gallery-hero{
+  background-image: url('./images/gallery/gallery-banner.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30vh;
+}
+
+.gallery-hero h1{
+  padding-top: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #00000093;
+}
 
 /*---------------------------------------
   FEATURE BLOCK              

@@ -37,7 +37,7 @@
                         <ul class="footer-menu">
                             <li class="footer-menu-item mb-4"><a href="/" class="footer-menu-link">Home</a></li>
 
-                            <li class="footer-menu-item mb-4"><a href="/gallery" class="footer-menu-link">Our Gallery</a></li>
+                            <li class="footer-menu-item mb-4"><a href="/gallery.html" class="footer-menu-link">Our Gallery</a></li>
 
                             <li class="footer-menu-item mb-4"><a href="#" class="footer-menu-link donate-btn">Donate Us</a></li>
                         </ul>
@@ -50,7 +50,7 @@
                             <i class="bi-telephone me-3"></i>
 
                             <a href="tel:+91 92924 26868" class="site-footer-link">
-                                +91 92924 26868
+                                +91 91760 26868
                             </a>
                         </p>
 

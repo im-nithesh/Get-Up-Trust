@@ -4,11 +4,11 @@
     */
 get_header(); ?>
 
-<main>
+<main class="gallery-page">
     <div class="gallery-hero">
         <div class="container-fluid">
             <div class="row justify-content-center text-center">
-                <div class="col-12 my-auto p-4">
+                <div class="col-12 my-auto">
                     <h1>Explore Our Gallery</h1>
                 </div>
             </div>
@@ -28,7 +28,7 @@ get_header(); ?>
                                 <h5 class="mb-3">Diwali Celebration</h5>
                             </div>
 
-                            <a href="" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn">View Album</button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ get_header(); ?>
                                 <h5 class="mb-3">Get-To-Gether Party</h5>
                             </div>
 
-                            <a href="" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn">View Album</button>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ get_header(); ?>
                                 <h5 class="mb-3">Medical Camp</h5>
                             </div>
 
-                            <a href="" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn">View Album</button>
                         </div>
                     </div>
                 </div>

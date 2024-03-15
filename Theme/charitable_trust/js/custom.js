@@ -26,7 +26,7 @@
     $(".donate-section").addClass("active");
   });
 
-  $(".close-btn").click(function() {
+  $(".donate-form .close-btn").click(function() {
     $(".donate-section").removeClass("active");
   });
 
@@ -57,5 +57,51 @@
     $('.copy-btn').removeClass('visited');
     $('.copy-info').html('Copy');
   });
-    
+
+  $(".album .custom-btn").click(function() {
+    $(".popup-section").addClass("active");
+  });
+
+  $(".popup-section .close-btn").click(function() {
+    $(".popup-section").removeClass("active");
+  });
+  
+  // Gallery Popup Carousel
+  $(document).ready(function () {
+    // Handle button click to open the popup
+    $('.album .custom-btn').on('click', function () {
+        const folderName = $(this).data('folder');
+        loadImagesIntoCarousel(folderName);
+    });
+
+    // Function to fetch image URLs dynamically (replace with your logic)
+    function loadImagesIntoCarousel(folderName) {
+        // Simulate fetching image URLs (you can replace this with your actual logic)
+        var templateUrl = 'https://getuptrust.org/wp-content/themes/charitable_trust';
+        
+        const imageUrls = [
+            `/images/gallery/${folderName}/image1.jpg`,
+            `/images/gallery/${folderName}/image2.jpg`,
+            `/images/gallery/${folderName}/image3.jpg`,
+            // Add more image URLs as needed
+        ];
+
+        // Populate the carousel
+        const carouselInner = $('#dynamicCarousel');
+        carouselInner.empty(); // Clear existing images
+        
+        imageUrls.forEach((imageUrl, index) => {
+            const item = $('<div>').addClass('carousel-item');
+            if (index === 0) {
+                item.addClass('active'); // Set the first item as active
+            }
+
+            const img = $('<img>').attr('src', templateUrl + imageUrl).addClass('carousel-image img-fluid').attr('alt', `Image ${index + 1}`);
+
+            item.append(img);
+            carouselInner.append(item);
+        });
+    }
+  });
+
 })(window.jQuery);

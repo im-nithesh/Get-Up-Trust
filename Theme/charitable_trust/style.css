@@ -1414,12 +1414,61 @@ main.gallery-page #section_3::after{
   bottom: -100px;
 }
 
+
+/*---------------------------------------
+  GALLERY HERO
+-----------------------------------------*/
+.popup-section{
+  display: grid;
+  position: fixed;
+  background-color: #00000096;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  place-items: center;
+  z-index: 999999;
+}
+.popup-section.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-card {
+  position: relative;
+}
+
+.popup-section .carousel{
+  border-radius: var(--border-radius-medium);
+  box-shadow: 0px 0px 30px 0px #ffffff96;
+}
+.popup-section .carousel-inner{
+  border-radius: var(--border-radius-medium);
+}
+
+.popup-section .carousel-item{
+  height: auto;
+  object-fit: cover;
+}
+
+.popup-section .close-btn{
+  z-index: 99999999;
+}
+
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .featured-block {
     min-height: inherit;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .popup-section .carousel-item{
+    height: 80vh;
   }
 }
 
@@ -1533,7 +1582,12 @@ main.gallery-page #section_3::after{
     text-align: center;
   }
 
-  .about-section::after, .cta-section::before, .cta-section::after, #section_3::before, .testimonial-section::after, .contact-section::before,#section_3::after, .testimonial-section::before {
+  .about-section::after, 
+  .cta-section::before, .cta-section::after,
+  #section_3::before, #section_3::after,
+  .testimonial-section::before, .testimonial-section::after,
+  .contact-section::before,
+  main.gallery-page #section_3::after {
     transform: scale(0.7);
   }
 
@@ -1615,7 +1669,12 @@ main.gallery-page #section_3::after{
     text-align: center;
   }
 
-  .about-section::after, .cta-section::before, .cta-section::after, #section_3::before, .testimonial-section::after, .contact-section::before,#section_3::after, .testimonial-section::before {
+  .about-section::after,
+  .cta-section::before, .cta-section::after,
+  #section_3::before, #section_3::after,
+  .testimonial-section::before, .testimonial-section::after,
+  .contact-section::before,
+  main.gallery-page #section_3::after {
     transform: scale(0.5);
   }
 
@@ -1629,6 +1688,11 @@ main.gallery-page #section_3::after{
     left: -200px;
   }
   .testimonial-section::after, .contact-section::before{
+    right: -100px;
+  }
+
+  main.gallery-page #section_3::after {
+    left: auto;
     right: -100px;
   }
 }

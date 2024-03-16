@@ -28,7 +28,7 @@ get_header(); ?>
                                 <h5 class="mb-3">Diwali Celebration</h5>
                             </div>
 
-                            <button type="button" class="custom-btn btn" data-folder="Diwali">View Album</button>
+                            <button type="button" class="custom-btn btn" data-folder="986">View Album</button>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ get_header(); ?>
                                 <h5 class="mb-3">Get-To-Gether Party</h5>
                             </div>
 
-                            <button type="button" class="custom-btn btn" data-folder="Get_Together">View Album</button>
+                            <button type="button" class="custom-btn btn" data-folder="990">View Album</button>
                         </div>
                     </div>
                 </div>

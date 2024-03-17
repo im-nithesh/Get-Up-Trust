@@ -37,7 +37,7 @@
                         <ul class="footer-menu">
                             <li class="footer-menu-item mb-4"><a href="/" class="footer-menu-link">Home</a></li>
 
-                            <li class="footer-menu-item mb-4"><a href="/gallery.html" class="footer-menu-link">Our Gallery</a></li>
+                            <li class="footer-menu-item mb-4"><a href="/gallery" class="footer-menu-link">Our Gallery</a></li>
 
                             <li class="footer-menu-item mb-4"><a href="#" class="footer-menu-link donate-btn">Donate Us</a></li>
                         </ul>

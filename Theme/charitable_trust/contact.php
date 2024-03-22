@@ -7,11 +7,11 @@
                     <h2>Get in touch</h2>
 
                     <div class="contact-image-wrap">
-                        <img src="<?php echo get_theme_file_uri('/images/avatar/founder-01.png') ?>" class="img-fluid avatar-image" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/avatar/founder-01.png') ?>" class="img-fluid avatar-image" alt="Getup-Trust-CEO-image">
 
                         <div class="d-flex flex-column justify-content-center ms-3">
                             <h5 class="mb-0 text-muted"><strong>Mohan Karunakaran</strong></h5>
-                            <h6 class="mb-0 text-muted">Chief executive officer</h6>
+                            <h6 class="mb-0 text-muted">Chief Executive Officer</h6>
                         </div>
                     </div>
 

@@ -65,7 +65,7 @@ get_header(); ?>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap album">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="Album-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -79,7 +79,7 @@ get_header(); ?>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap album">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="Album-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -93,7 +93,7 @@ get_header(); ?>
 
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="custom-block-wrap album">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="Album-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">

@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-12 mb-4">
                         <div class="col-12 mb-4 d-flex justify-content-center align-items-center mx-auto">
-                            <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" class="logo img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" class="logo img-fluid" alt="Get-Up Charity Logo">
                         </div>
                         <div class="col-12 d-flex justify-content-center align-items-center mx-auto">
                             <ul class="social-icon">
@@ -92,10 +92,9 @@
         <!-- JAVASCRIPT FILES -->
         <script src="<?php echo get_theme_file_uri('/js/jquery.min.js') ?>"></script>
         <script src="<?php echo get_theme_file_uri('/js/bootstrap.min.js') ?>"></script>
-        <script src="<?php echo get_theme_file_uri('/js/jquery.sticky.js') ?>"></script>
-        <script src="<?php echo get_theme_file_uri('/js/click-scroll.js') ?>"></script>
-        <script src="<?php echo get_theme_file_uri('/js/counter.js') ?>"></script>
-        <script src="<?php echo get_theme_file_uri('/js/custom.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/jquery.sticky.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/click-scroll.min.js') ?>"></script>
+        <script src="<?php echo get_theme_file_uri('/js/custom.min.js') ?>"></script>
 
         <?php wp_footer(); ?>
     </body>

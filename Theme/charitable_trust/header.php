@@ -6,6 +6,7 @@
     <meta name="description" content="Getup Charitable Trust | Transforming Lives | Education, Healthcare, and Empowerment.">
     <meta name="keywords" content="Charity, Nonprofit, Community, Empowerment, Education, Healthcare, Social Welfare, Donation, Impact, Volunteer">
     <meta name="author" content="Nithesh Mohan">
+    <link rel="canonical" href="https://getuptrust.org" />
 
     <title>Getup Charitable Trust</title>
 

@@ -54,7 +54,7 @@
                     <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-1.png') ?>" class="carousel-image img-fluid" alt="...">
+                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-1.png') ?>" class="carousel-image img-fluid" alt="banner-slide-1">
                                 
                                 <div class="carousel-caption d-flex flex-column justify-content-end">
                                     <h2>Transforming<br>Lives</h2>
@@ -64,7 +64,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-2.png') ?>" class="carousel-image img-fluid" alt="...">
+                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-2.png') ?>" class="carousel-image img-fluid" alt="banner-slide-2">
                                 
                                 <div class="carousel-caption d-flex flex-column justify-content-end">
                                     <h2>Give Hope<br>Today</h2>
@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-3.png') ?>" class="carousel-image img-fluid" alt="...">
+                                <img src="<?php echo get_theme_file_uri('/images/slide/slide-3.png') ?>" class="carousel-image img-fluid" alt="banner-slide-2">
                                 
                                 <div class="carousel-caption d-flex flex-column justify-content-end">
                                     <h2>Empowering<br>Change</h2>
@@ -102,13 +102,13 @@
             <div class="row">
 
                 <div class="col-lg-10 col-12 text-center mx-auto">
-                    <h2 class="mb-5">Welcome to Get-Up Charity</h2>
+                    <h1 class="mb-5">Welcome to Get-Up Charity</h1>
                 </div>
 
                 <div class="col-lg-3 col-6 mb-4 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="<?php echo get_theme_file_uri('/images/icons/recruitment.png') ?>" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/recruitment.png') ?>" class="featured-block-image img-fluid" alt="employ-icon">
 
                             <p class="featured-block-text">We <br> <strong>Employ</strong></p>
                         </div>
@@ -118,7 +118,7 @@
                 <div class="col-lg-3 col-6 mb-4 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="<?php echo get_theme_file_uri('/images/icons/heart.png') ?>" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/heart.png') ?>" class="featured-block-image img-fluid" alt="find-fund-icon">
 
                             <p class="featured-block-text"> We <br> <strong>Find & Fund</strong></p>
                         </div>
@@ -128,7 +128,7 @@
                 <div class="col-lg-3 col-6 mb-md-4 mb-0 mb-lg-0 mb-md-4">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="<?php echo get_theme_file_uri('/images/icons/receive.png') ?>" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/receive.png') ?>" class="featured-block-image img-fluid" alt="Care-icon">
 
                             <p class="featured-block-text">We <br> <strong>Care For You</strong></p>
                         </div>
@@ -138,7 +138,7 @@
                 <div class="col-lg-3 col-6 mb-md-4 mb-0 mb-lg-0">
                     <div class="featured-block d-flex justify-content-center align-items-center">
                         <div class="d-block">
-                            <img src="<?php echo get_theme_file_uri('/images/icons/scholarship.png') ?>" class="featured-block-image img-fluid" alt="">
+                            <img src="<?php echo get_theme_file_uri('/images/icons/scholarship.png') ?>" class="featured-block-image img-fluid" alt="Educate-icon">
 
                             <p class="featured-block-text">We <br> <strong>Educate</strong></p>
                         </div>
@@ -154,7 +154,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                    <img src="<?php echo get_theme_file_uri('/images/about-us.jpg') ?>" class="custom-text-box-image img-fluid" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/about-us.jpg') ?>" class="custom-text-box-image img-fluid" alt="Getup-trust-Team">
                 </div>
 
                 <div class="col-lg-6 col-12">
@@ -228,7 +228,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-5 col-12">
-                    <img src="<?php echo get_theme_file_uri('/images/avatar/founder.jpg') ?>" class="about-image mx-lg-auto bg-light shadow-lg img-fluid" alt="">
+                    <img src="<?php echo get_theme_file_uri('/images/avatar/founder.jpg') ?>" class="about-image mx-lg-auto bg-light shadow-lg img-fluid" alt="Getup-trust-founder">
                 </div>
 
                 <div class="col-lg-6 col-md-7 col-12">
@@ -286,7 +286,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -300,7 +300,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
                     <div class="custom-block-wrap">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">
@@ -314,7 +314,7 @@
 
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="custom-block-wrap">
-                        <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="">
+                        <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
                             <div class="custom-block-body text-center">

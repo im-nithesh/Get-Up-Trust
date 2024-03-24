@@ -50,7 +50,7 @@
                             <i class="bi-telephone me-3"></i>
 
                             <a href="tel:+91 92924 26868" class="site-footer-link">
-                                +91 91760 26868
+                                +91 92924 26868
                             </a>
                         </p>
 

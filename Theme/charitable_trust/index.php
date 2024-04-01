@@ -278,14 +278,14 @@
 
     <section class="section-padding" id="section_3">
         <div class="container">
-            <div class="row">
+            <div class="row mb-3">
 
                 <div class="col-lg-12 col-12 text-center mb-4">
                     <h2>Our Gallery</h2>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block-wrap">
+                    <div class="custom-block-wrap album">
                         <img src="<?php echo get_theme_file_uri('/images/gallery/diwali_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
@@ -293,13 +293,13 @@
                                 <h5 class="mb-3">Diwali Celebration</h5>
                             </div>
 
-                            <a href="/gallery" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn" data-folder="986">View Album</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block-wrap">
+                    <div class="custom-block-wrap album">
                         <img src="<?php echo get_theme_file_uri('/images/gallery/getto_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
@@ -307,13 +307,13 @@
                                 <h5 class="mb-3">Get-To-Gether Party</h5>
                             </div>
 
-                            <a href="/gallery" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn" data-folder="990">View Album</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="custom-block-wrap">
+                    <div class="custom-block-wrap album">
                         <img src="<?php echo get_theme_file_uri('/images/gallery/medic_01.jpg') ?>" class="custom-block-image img-fluid" alt="Gallery-image">
 
                         <div class="custom-block">
@@ -321,11 +321,17 @@
                                 <h5 class="mb-3">Medical Camp</h5>
                             </div>
 
-                            <a href="/gallery" class="custom-btn btn">View Album</a>
+                            <button type="button" class="custom-btn btn" data-folder="">View Album</button>
                         </div>
                     </div>
                 </div>
+                
+            </div>
 
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 mx-auto">
+                    <a href="/gallery" class="custom-btn btn">View our Gallery</a>
+                </div>
             </div>
         </div>
     </section>
@@ -398,6 +404,8 @@
         </div>
     </section>
 
+    <?php get_template_part( 'popup' ); ?>
+    
     <?php get_template_part( 'contact' ); ?>
     
 </main>

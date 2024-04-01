@@ -21,7 +21,7 @@ get_header(); ?>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#top">Home</a>
+                    <a class="nav-link click-scroll" href="/">Home</a>
                 </li>
 
                 <li class="nav-item">
@@ -111,8 +111,6 @@ get_header(); ?>
     
     <?php get_template_part( 'popup' ); ?>
 
-    <?php the_content(); ?>
-    
     <?php get_template_part( 'contact' ); ?>
 </main>
 
